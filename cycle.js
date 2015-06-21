@@ -32,6 +32,7 @@ if (typeof JSON.decycle !== 'function') {
 // where the PATH is a JSONPath string that locates the first occurance.
 // So,
 //      var a = [];
+//
 //      a[0] = a;
 //      return JSON.stringify(JSON.decycle(a));
 // produces the string '[{"$ref":"$"}]'.
